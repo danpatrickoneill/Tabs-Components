@@ -19,9 +19,9 @@ class Dropdown {
     // Toggle the ".dropdown-hidden" class off and on
     // this.content.classList.toggle('dropdown-hidden');
     if (this.content.classList.contains("dropdown-hidden")) {
-      TweenMax.to(this.content, 0.5, { className: "-=dropdown-hidden" });
+      TweenMax.to(this.content, 1, { className: "-=dropdown-hidden" });
     } else {
-      TweenMax.to(this.content, 0.5, { className: "+=dropdown-hidden" });
+      TweenMax.to(this.content, 1, { className: "+=dropdown-hidden" });
     }
   }
 }
