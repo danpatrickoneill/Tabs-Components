@@ -3,7 +3,7 @@ class Tabs {
     this.element = element;
     // console.log(this.element)
 
-    this.links = document.querySelectorAll(".tabs-link");
+    this.links = element.querySelectorAll(".tabs-link");
     console.log(this.links)
   
     this.tabLinks = this.links.forEach(link => new TabLink(link));
